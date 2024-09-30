@@ -1,0 +1,20 @@
+{
+  "name": "joblisting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/main.css -o ./dist/styles.css"
+  },
+  "keywords": [ ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}
